@@ -1,0 +1,811 @@
+.header{
+    background-image: url(./images/image-hero.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-nav{
+    margin-left: 75%;
+}
+.headera{
+    border-style: solid;
+    border-color: white;
+    width: 350px;
+    margin-left: 5%;
+    color: white;
+    margin-top: 13%;
+    padding-left: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.interactive{
+   width: 150%px;
+}
+.first{
+    display: flex;
+    margin-top: 10%;
+}
+.firsta{
+    /* width: 70%; */
+    margin-top: 7%;
+}
+.firstb{
+    margin-top: 25%;
+    margin-left: 55%;
+    position: absolute;
+    right: 5%;
+    background-color: white;
+    height: 65%;
+}
+.interactive{
+    width: 170%;
+    margin-left: 11%;
+}
+.leader{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30%;
+    font-size: 75px;
+    padding-left: 15%;
+}
+.founded{
+    padding-left:15%;
+    padding-top:8%;  
+}
+.second{
+    display: flex;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.creation{
+    margin-left: 5%;
+    font-size: 30px;
+}
+.all{
+    margin-left: 70%;
+    margin-right: 5%;
+    background: black;
+    color: white;
+    width: 110px;
+    height: 40px;
+}
+.third{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-flex-group: 1fr 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+   grid-gap: 15px;
+}
+.thirda{
+    background-image: url(./images/image-deep-earth.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thirdb{
+    background-image: url(./images/image-night-arcade.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thirdc{
+    background-image: url(./images/image-soccer-team.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thirdd{
+    background-image: url(./images/image-grid.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thirde{
+    background-image: url(./images/image-from-above.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thirdf{
+    background-image: url(./images/image-pocket-borealis.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thirdg{
+    background-image: url(./images/image-curiosity.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thirdh{
+    background-image: url(./images/image-fisheye.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: white;
+    padding-top: 850px;
+    font-size: 85px;
+}
+.loop{
+    color: white;
+    /* font-size: 15px; */
+}
+.rights{
+    color:white;
+}
+.fourth{
+    background-color: black;
+    display: flex;
+    height: 15vh;
+    margin-top: 5%;
+}
+.fourthb{
+    background-color: black;
+    margin-left: 55%;
+    margin-right: 5%;
+    padding-top: 45px;
+}
+.fourtha{
+    background-color: black;
+    margin-left: 5%;
+    padding-top: 35px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.linka{
+    text-decoration: none;
+    color: white;
+}
+.linkb{
+    text-decoration: none;
+    color: white;
+}
+.linkc{
+    text-decoration: none;
+    color: white;
+}
+.linkd{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width: 1429px){
+    .navbar-nav{
+        margin-left: 70%;
+    }
+    .firsta{
+        margin-top: 3px;
+    }
+    .firstb{
+        margin-top: 15%;
+        margin-left: 65%;
+        position: absolute;
+        right: 5%;
+        background-color: white;
+        height: 55%;
+    }
+    .interactive{
+        width: 140%;
+        margin-left: 11%;
+    }
+    .leader{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 20%;
+        font-size: 55px;
+        padding-left: 15%;
+    }
+    .founded{
+        padding-left:15%;
+        padding-top:5%;  
+    }
+    .creation{
+        margin-left: 5%;
+        font-size: 20px;
+    }
+}
+@media(max-width: 1400px){
+    .navbar-nav{
+        margin-left: 65%;
+    }
+    .firsta{
+        margin-top: 3px;
+    }
+    .interactive{
+        width: 120%;
+        margin-left: 11%;
+    }
+    .leader{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 25%;
+        font-size: 45px;
+        padding-left: 15%;
+    }
+    .fourth{
+        background-color: black;
+        display: flex;
+        height: 25vh;
+        margin-top: 5%;
+    }
+    .fourthb{
+        background-color: black;
+        margin-left: 40%;
+        margin-right: 5%;
+        padding-top: 40px;
+    }
+}
+@media(max-width: 1200px){
+    .navbar-nav{
+        margin-left: 60%;
+        /* margin-right: 20%; */
+    }
+    .interactive{
+        width: 110%;
+        margin-left: 11%;
+    }
+    .firsta{
+        margin-top: 2px;
+    }
+    .leader{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 30%;
+        font-size: 40px;
+        padding-left: 15%;
+    }
+    .firstb{
+        margin-top: 10%;
+        margin-left: 65%;
+        position: absolute;
+        right: 5%;
+        background-color: white;
+        height: 55%;
+    }
+    .third{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        box-flex-group: 1fr 1fr 1fr 1fr;
+        margin-left: 5%;
+        margin-right: 5%;
+       grid-gap: 15px;
+    }
+    .thirda{
+        background-image: url(./images/image-deep-earth.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center
+    }
+    .thirdb{
+        background-image: url(./images/image-night-arcade.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .thirdc{
+        background-image: url(./images/image-soccer-team.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .thirdd{
+        background-image: url(./images/image-grid.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center
+    }
+    .thirde{
+        background-image: url(./images/image-from-above.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .thirdf{
+        background-image: url(./images/image-pocket-borealis.jpg);
+        height: 100vh;
+        background-repeat: no repeat;
+        background-size: cover;
+        background-position: center; 
+    }
+    .thirdg{
+        background-image: url(./images/image-curiosity.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .thirdh{
+        background-image: url(./images/image-fisheye.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .creation{
+        margin-left: 7%;
+        font-size: 25px;
+    }
+    .fourthb{
+        margin-left: 25%;
+    }
+    .all{
+        height: 30px;
+        width: 20%;
+        margin-right: 50px;
+        margin-left: 55%;
+        height: 45px;
+    }
+}
+@media(max-width: 1000px){
+    .navbar-nav{
+        margin-left: 55%;
+    }
+    .interactive{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .leader{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 25%;
+        font-size: 25px;
+        padding-left: 15%;
+    }
+    .founded{
+        font-size: 85%;
+    }
+    .ha{
+        color: white;
+        padding-top: 850px;
+        font-size: 25px;
+    } 
+    .hb{
+        color: white;
+        padding-top: 850px;
+        font-size: 25px;
+    } 
+    .hc{
+        color: white;
+        padding-top: 850px;
+        font-size: 25px;
+    } 
+    .hd{
+        color: white;
+        padding-top: 850px;
+        font-size: 25px;
+    } 
+    .he{
+        color: white;
+        padding-top: 850px;
+        font-size: 20px;
+    } 
+    .hf{
+        color: white;
+        padding-top: 850px;
+        font-size: 25px;
+    } 
+    .hg{
+        color: white;
+        padding-top: 850px;
+        font-size: 25px;
+    } 
+    .hh{
+        color: white;
+        padding-top: 850px;
+        font-size: 25px;
+    } 
+    .firsta{
+        margin-top: 2px;
+    }
+    .creation{
+        margin-left: 8%;
+        font-size: 15px;
+    }
+    .fourthb{
+        margin-left: 25%;
+    }
+    .all{
+        margin-left: 60%;
+        margin-right: 5%;
+        width: 170px;
+        height: 40px;
+    }
+    .ha{
+        font-size: 15px;
+    }
+    .hb{
+        font-size: 15px;
+    }
+    .hc{
+        font-size: 15px;
+    }
+    .hd{
+        font-size: 15px;
+    }
+    .he{
+        font-size: 15px;
+    }
+    .hf{
+        font-size: 15px;
+    }
+    .hg{
+        font-size: 15px;
+    }
+    .hh{
+        font-size: 15px;
+    }
+    .firstb{
+        margin-top: 15%;
+        margin-left: 65%;
+        height: 43%;
+    }
+}
+@media(max-width: 800px){
+    .header{
+        background-image: url(./images/image-hero.jpg);
+        height: 80vh;
+        background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+    }
+    .firsta{
+        margin-top: 95px;
+    }
+    .firstb{
+        margin-top: 30%;
+        margin-left: 65%;
+        position: absolute;
+        right: 8%;
+        background-color: white;
+        height: 30%;
+        width: 180px;
+    }
+    .interactive{
+        width: 70%;
+        margin-left: 5%;
+    }
+    .leader{
+        font-size: 15px;
+        padding-top: 10%;
+        /* padding-bottom: 20px; */
+    }
+    .founded{
+        font-size: 55%;
+    }
+    .ha{
+        color: white;
+        /* padding-top: 850px; */
+        font-size: 15px;
+    } 
+    .hb{
+        color: white;
+        /* padding-top: 850px; */
+        font-size: 15px;
+    } 
+    .hc{
+        color: white;
+        /* padding-top: 850px; */
+        font-size: 15px;
+    } 
+    .hd{
+        color: white;
+        /* padding-top: 850px; */
+        font-size: 15px;
+    } 
+    .he{
+        color: white;
+        /* padding-top: 850px; */
+        font-size: 15px;
+    } 
+    .hf{
+        color: white;
+        /* padding-top: 850px; */
+        font-size: 15px;
+    } 
+    .hg{
+        color: white;
+        /* padding-top: 850px; */
+        font-size: 15px;
+    } 
+    .hh{
+        color: white;
+        /* padding-top: 850px; */
+        font-size: 15px;
+    } 
+    .fourthb{
+        margin-left: 10%;
+    }
+    .third{
+        grid-gap: 10px;
+    }
+    .creation{
+        margin-left: 4%;
+        font-size: 15px;
+    }
+    .all{
+        margin-left: 55%;
+        margin-right: 5%;
+        /* width: 110px; */
+        height: 40px;
+        width: 100px;
+    }
+}
+@media(max-width: 795px){
+    .interactive{
+        width: 75%;
+    }
+    .firstb{
+        height: 30%;
+        margin-top: 30%;
+        width: 35%;
+        /* margin-left: 75%; */
+    }
+    .leader{
+        padding-top: 20%;
+        font-size: 22px;
+    }
+    .founded{
+        font-size: 70%;
+    }
+    @media(max-width: 700px){
+        .founded{
+            font-size: 45%;
+        }
+        .firstb{
+            height: 245px;
+        }
+    }
+}
+@media(max-width: 500px){
+    .deliver{
+        font-size: 20px;
+    }
+    .headera{
+        width: 200px;
+    }
+    .interactive{
+        width: 300px;
+    }
+    .leader{
+        font-size: 9px;
+    }
+    .founded{
+        font-size: 30%;
+    }
+    .firstb{
+        margin-top: 35%;
+        height: 15%;
+        margin-left: 5%;
+    }
+    .all{
+        margin-left: 35%;
+        margin-right: 5%;
+        height: 30px;
+        width: 100px;
+    }
+    .ha{
+        font-size: 10px;
+    }
+    .hb{
+        font-size: 10px;
+    }
+    .hc{
+        font-size: 10px;
+    }
+    .hd{
+        font-size: 10px;
+    }
+    .he{
+        font-size: 10px;
+    }
+    .hf{
+        font-size: 10px;
+    }
+    .hg{
+        font-size: 10px;
+    }
+    .hh{
+        font-size: 10px;
+    }
+}
+    @media(max-width:475px){
+        .interactive{
+            width: 250px;
+        }
+        .firstb{
+            margin-top: 35%;
+            height: 15%;
+            margin-left: 5%;
+            margin-right: 10%;
+        }
+    }
+/* @media(max-width: 300px){
+    .deliver{
+        font-size: 15px;
+    }
+    .headera{
+        width: 130px;
+    }
+    .interactive{
+        width: 250px;
+    }
+    .leader{
+        font-size: 10px;
+    }
+    .founded{
+        font-size: 5px;
+    }
+    .firstb{
+        margin-top: 45%;
+        height: 15%;
+    }
+    .all{
+        margin-left: 35%;
+        margin-right: 5%;
+        height: 30px;
+        width: 100px;
+    }
+    .ha{
+        font-size: 10px;
+    }
+    .hb{
+        font-size: 10px;
+    }
+    .hc{
+        font-size: 10px;
+    }
+    .hd{
+        font-size: 10px;
+    }
+    .he{
+        font-size: 10px;
+    }
+    .hf{
+        font-size: 10px;
+    }
+    .hg{
+        font-size: 10px;
+    }
+    .hh{
+        font-size: 10px;
+    } */
+/* } */
+@media(max-width: 400px){
+    .thirda{
+        background-image: url(./image/image-deep-earth.jpg);
+        height: 20vh;
+        margin-top: 20px;
+    }
+    .thirdb{
+        background-image: url(./image/image-night-arcade.jpg);
+        height: 20vh;
+        margin-top: 20px;
+    }
+    .thirdc{
+        background-image: url(./image/image-soccer-team.jpg);
+        height: 20vh;
+        margin-top: 20px;
+    }
+    .thirdd{
+        background-image: url(./image/image-grid.jpg);
+        height: 20vh;
+        margin-top: 20px;
+    }
+    .thirde{
+        background-image: url(./image/image-from-above.jpg);
+        height: 20vh;
+        margin-top: 20px;
+    }
+    .thirdf{
+        background-image: url(./image/image-pocket-borealis.jpg);
+        height: 20vh;
+        margin-top: 20px;
+    }
+    .thirdg{
+        background-image: url(./image/image-curiosity.jpg);
+        height: 20vh;
+        margin-top: 20px;
+    }
+    .thirdh{
+        background-image: url(./image/image-fisheye.jpg);
+        height: 20vh;
+        margin-top: 20px;
+    }
+    .third{
+        display: block;
+    }
+    .fourth{
+        display: block;
+    }
+    .ha{
+        font-size: 20px;
+        padding-top: 40%; 
+    }
+    .hb{
+        font-size: 20px;
+        padding-top: 40%;
+    }
+    .hc{
+        font-size: 20px;
+        padding-top: 40%;
+    }
+    .hd{
+        font-size: 20px;
+        padding-top: 40%;
+    }
+    .he{
+        font-size: 20px;
+        padding-top: 40%;
+    }
+    .hf{
+        font-size: 20px;
+        padding-top: 40%;
+    }
+    .hg{
+        font-size: 20px;
+        padding-top: 40%;
+    }
+    .hh{
+        font-size: 20px;
+        padding-top: 40%;
+    }
+    .first{
+        display: inline-block;
+    }
+    .second{
+        display: flex;
+        padding-top: 80%;
+        padding-bottom: 0%;
+    }
+    .interactive{
+        width: 90%;
+        margin-top: 3px;
+    }
+    .firstb{
+        width: 90%;
+        margin-bottom: 50%;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    .leader{
+        font-size: 40px;
+        /* padding-bottom: 25%; */
+        padding-top: 35px;
+    }
+    .founded{
+        font-size: 90%;
+        padding-bottom: 150px;
+        padding-top: 1px;
+}
+.fourth{
+    height: 35vh;
+}
+.fourtha{
+    width: 15px;
+   padding-left: 30%;
+}
+.fourthb{
+    text-align: center;
+    margin-left: 1px;
+}
+.loop{
+    /* text-align: center; */
+    margin-right: 2px;
+}
+}
+@media(max-width:370px){
+    .leader{
+        font-size: 30px;
+        /* padding-bottom: 25%; */
+        padding-top: 35px;
+    }
+    .founded{
+        font-size: 70%;
+        padding-bottom: 150px;
+        padding-top: 1px;
+    }
+}
